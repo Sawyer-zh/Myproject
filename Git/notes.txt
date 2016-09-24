@@ -17,4 +17,4 @@ Git 张雪峰的教程笔记
 	git diff  查看变化
 
 	版本回退：
-		git log （--pretty = oneline）
+		git log （--pretty = oneline） 很长的数字是版本号
