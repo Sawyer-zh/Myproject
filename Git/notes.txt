@@ -10,8 +10,11 @@ Git 张雪峰的教程笔记
 
 	添加文件到版本库：
 		1、先添加git add 文件  
-		2、然（我故意的）后git commit -m “一些说明”
+		2、然后git commit -m “一些说明”
 
 4、查看版本库状态
 	git status 查看工作区状态，如果有修改使用如下命令
 	git diff  查看变化
+
+	版本回退：
+		git log （--pretty = oneline）
