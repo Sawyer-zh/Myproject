@@ -16,5 +16,15 @@ Git 张雪峰的教程笔记
 	git status 查看工作区状态，如果有修改使用如下命令
 	git diff  查看变化
 
-	版本回退：
-		git log （--pretty = oneline） 很长的数字是版本号
+	版本回退与还原：
+		git log （--pretty=oneline） 查看历史版本  很长的数字是版本号
+		git reset --hard 版本号   /head~10   /head^^  还原到某个版本
+		git reflog 查看命令历史 有版本号 和操作记录  这个比较重要
+
+	工作区和暂存区：
+		git add 的操作是吧工作区的内容放到版本库的暂存区
+		git commit 是把版本库的暂存区的内容提交到版本库的分支里面
+
+	管理修改：
+		每次add 到暂存区的是修改，所以可以多次add，然后执行一次commit操作
+		git diff head -- notes.txt 可以判断两个文件的区别
