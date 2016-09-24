@@ -1,0 +1,15 @@
+Git 张雪峰的教程笔记
+1、Git简介
+	诞生
+	分布式与集中式的区别：分布式中每一个客户端都有一个版本库
+2、Git安装
+	windows下：直接下载安装，需要指定输入 git config --user.name ""   和git config --user.email ""
+3、创建版本库
+	第一步：新建一个空目录：mkdir MyProject   cd MyProject  pwd
+	第二部：创建版本库 git init
+
+	添加文件到版本库：
+		1、先添加git add 文件  
+		2、然后git commit -m “一些说明”
+
+4、
