@@ -4,12 +4,14 @@ Git 张雪峰的教程笔记
 	分布式与集中式的区别：分布式中每一个客户端都有一个版本库
 2、Git安装
 	windows下：直接下载安装，需要指定输入 git config --user.name ""   和git config --user.email ""
-3、创建版本库
+3、创建版本库（修改也是这两步）
 	第一步：新建一个空目录：mkdir MyProject   cd MyProject  pwd
 	第二部：创建版本库 git init
 
 	添加文件到版本库：
 		1、先添加git add 文件  
-		2、然后git commit -m “一些说明”
+		2、然（我故意的）后git commit -m “一些说明”
 
-4、
+4、查看版本库状态
+	git status 查看工作区状态，如果有修改使用如下命令
+	git diff  查看变化
